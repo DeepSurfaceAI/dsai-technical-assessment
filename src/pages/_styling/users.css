@@ -1,0 +1,32 @@
+#users {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#user-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+} 
+
+#input {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  flex-direction: row;
+}
+
+button {
+  width: 90px;
+}
+
+input {
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 30px;
+}
